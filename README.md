@@ -57,6 +57,12 @@ SQL Server, PostgreSQL, Azure Cosmos DB, Git, GitHub, Docker, Google Colab, Kagg
 
 ## Featured Projects
 
+### [E-Commerce SQL Database](https://github.com/abdelrhmanmouse/ecommerce-sql-database)
+
+A Microsoft SQL Server database project that models customer accounts, product catalogs, carts, orders, payments, shipments, reviews, support tickets, returns, and refunds. It also includes analytical SQL queries for exploring e-commerce operations and business performance.
+
+`SQL` `Microsoft SQL Server` `T-SQL` `Relational Database Design` `Data Analysis`
+
 ### [SCVD Violence Intelligence Dashboard](https://github.com/abdelrhmanmouse/SCVD-Violence-Detection)
 
 An explainable CCTV video-analysis system that classifies temporal video segments as **Normal**, **Violence**, or **Weaponized Violence**. It uses a ResNet18 and two-layer LSTM pipeline, with incident timelines, probability analysis, person detection in alert scenes, annotated video, and downloadable reports.
