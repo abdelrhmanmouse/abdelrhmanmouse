@@ -128,13 +128,17 @@ El Obour Higher Institute for Management and Computers — Elsharqaya
 
 ## Certifications & Professional Learning
 
-- Huawei HCIA-DataCom
-- IBM AI Engineering Professional Certificate
-- IBM Delivering Quality Work with Agility
-- Google Data Analytics Professional Certificate
-- Microsoft Power BI Data Analyst / PL-300
-- DATA ANALYST L1
-- AI & Data Analysis Diploma — DigiLians
+### Verified Credentials
+
+- [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/Mouseabdelrhman91303414-2513/C379CF48AA33E738?sharingId=6FA75A715766B66) — Microsoft
+- [IBM AI Engineering](https://coursera.org/share/31704841819d6c602f75f87bddf6f29d) — IBM / Coursera, May 2026
+- [Artificial Intelligence Engineer 2](https://coursera.org/share/4d38c8a661ffbc62ff3c0a668f1eed87) — Coursera verified badge, May 2026
+- [Google Data Analytics](https://coursera.org/share/9e854f83607e85e730e06f6164295f5f) — Google / Coursera, March 2026
+- [Data Analyst L1](https://coursera.org/share/a89cc227a939d1d7688993e1eb69b555) — Coursera verified badge, February 2026
+
+### Current Learning
+
+- AI & Data Analysis Diploma — DigiLians, December 2025 – Present
 
 ## Current Focus
 
