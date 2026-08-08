@@ -4,9 +4,9 @@
 
 ### AI & Data Analyst
 
-**Machine Learning · Generative AI & RAG · Computer Vision · Business Intelligence**
+**Machine Learning · Deep Learning · Generative AI & RAG · Computer Vision · Data Analytics**
 
-Turning data into clear insights and building practical AI solutions.
+Turning data into clear insights and building practical AI solutions across **ML, Deep Learning, Generative AI, and Business Intelligence**.
 
 <br>
 
@@ -16,48 +16,66 @@ Turning data into clear insights and building practical AI solutions.
 
 </div>
 
-<br>
+---
 
 ## About Me
 
-I'm a Computer Science graduate focused on **AI, Machine Learning, and Data Analytics**.
+I'm a Computer Science graduate focused on **Artificial Intelligence, Machine Learning, Deep Learning, and Data Analytics**.
 
-I build practical projects across **RAG, Computer Vision, predictive modeling, and Business Intelligence**, combining AI engineering with data-driven problem solving.
+I build practical projects across **Computer Vision, RAG, predictive modeling, and Business Intelligence**, combining AI engineering with data-driven problem solving.
+
+My work spans both traditional Machine Learning and Deep Learning, from analytical prediction models to CNN–LSTM video intelligence systems.
 
 ---
 
 ## Core Tech Stack
 
-<div align="center">
-
-### Data & Analytics
+### 📊 Data & Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square\&logo=powerbi\&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square\&logo=microsoftexcel\&logoColor=white)
 
-### AI & Machine Learning
+### 🤖 Machine Learning
+
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-Classification_%7C_Regression-4B8BBE?style=flat-square)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-Modeling-5C6BC0?style=flat-square)
+
+`Regression` `Classification` `Feature Engineering` `Model Evaluation` `Predictive Modeling`
+
+### 🧠 Deep Learning & Computer Vision
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Generative_AI-6C63FF?style=flat-square)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-OpenCV-5C3EE8?style=flat-square\&logo=opencv\&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square\&logo=keras\&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square\&logo=opencv\&logoColor=white)
 
-### Tools & Platforms
+`Neural Networks` `CNN` `RNN` `LSTM` `ResNet` `Transfer Learning` `Video Classification`
+
+### ✨ Generative AI & NLP
+
+![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-6C63FF?style=flat-square)
+![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-00897B?style=flat-square)
+
+`RAG` `Embeddings` `BM25` `TF-IDF` `Cosine Similarity` `Arabic NLP` `AraBERT` `Whisper`
+
+### 🛠️ Tools & Platforms
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square\&logo=jupyter\&logoColor=white)
 
-</div>
+`SQL Server` `PostgreSQL` `Docker` `Git` `Jupyter` `Google Colab` `Kaggle` `n8n`
 
 ---
 
-# Featured Projects
+# 🚀 Featured Projects
 
 <table>
 <tr>
@@ -65,12 +83,21 @@ I build practical projects across **RAG, Computer Vision, predictive modeling, a
 
 ### 🎥 SCVD — Violence Intelligence Dashboard
 
-Explainable CCTV video-analysis dashboard that classifies temporal segments as **Normal, Violence, or Weaponized Violence**.
+**Deep Learning + Computer Vision**
 
-Includes an incident timeline, probability analysis, person detection in alert scenes, annotated video, and downloadable reports.
+Explainable CCTV video-analysis system that classifies temporal video segments as **Normal, Violence, or Weaponized Violence**.
 
-**Tech:**
-`PyTorch` `ResNet18` `LSTM` `OpenCV` `Streamlit`
+The model combines **ResNet18 for spatial feature extraction** with **LSTM for temporal sequence modeling**.
+
+Also includes an incident timeline, probability analysis, person detection in alert scenes, annotated video, and downloadable reports.
+
+**Architecture**
+
+`Video → Frames → ResNet18 → Features → LSTM → Classification`
+
+**Tech**
+
+`PyTorch` `CNN` `ResNet18` `LSTM` `OpenCV` `Streamlit`
 
 [**View Repository →**](https://github.com/abdelrhmanmouse/SCVD-Violence-Detection)
 
@@ -82,12 +109,19 @@ Includes an incident timeline, probability analysis, person detection in alert s
 
 ### 🤖 HikAssist — Arabic RAG Assistant
 
-Arabic and Egyptian-Arabic technical-support assistant combining **BM25 keyword search with multilingual semantic retrieval**.
+**Generative AI + NLP + Information Retrieval**
 
-Generates source-grounded answers for Hikvision device issues.
+Arabic and Egyptian-Arabic technical-support assistant combining **BM25 keyword retrieval with multilingual semantic search**.
 
-**Tech:**
-`Python` `RAG` `BM25` `Embeddings` `Streamlit`
+The system retrieves relevant knowledge chunks and provides them as grounded context for LLM-generated answers.
+
+**Pipeline**
+
+`Query → Retrieval → BM25 + Embeddings → Context → LLM → Answer`
+
+**Tech**
+
+`Python` `RAG` `BM25` `Embeddings` `NLP` `Streamlit`
 
 [**View Repository →**](https://github.com/abdelrhmanmouse/simple-rag-lab)
 
@@ -101,12 +135,15 @@ Generates source-grounded answers for Hikvision device issues.
 
 ### 📊 E-Commerce Data Analysis
 
+**Data Analytics + Business Intelligence**
+
 Power BI analytics project transforming cleaned transaction data into a **three-page interactive business report**.
 
-Covers revenue, products, customers, purchasing patterns, countries, and returns.
+The dashboard analyzes revenue, products, customers, purchasing patterns, geographic performance, and returns.
 
-**Tech:**
-`Power BI` `Data Cleaning` `Data Visualization` `Business Intelligence`
+**Tech**
+
+`Power BI` `Data Cleaning` `EDA` `Data Visualization` `Business Intelligence`
 
 [**View Repository →**](https://github.com/abdelrhmanmouse/ecommerce-data-analysis)
 
@@ -114,13 +151,16 @@ Covers revenue, products, customers, purchasing patterns, countries, and returns
 
 <td width="50%" valign="top">
 
-### 🧠 Body Performance Prediction
+### 📈 Body Performance Prediction
 
-Machine-learning workflow for analyzing physical-fitness measurements and predicting body-performance classes.
+**Machine Learning + Predictive Modeling**
 
-Covers exploratory analysis, preprocessing, modeling, and evaluation.
+Machine Learning classification workflow for analyzing physical-fitness measurements and predicting body-performance classes.
 
-**Tech:**
+The workflow covers **EDA, preprocessing, feature analysis, model training, and evaluation**.
+
+**Tech**
+
 `Python` `Pandas` `Scikit-learn` `Matplotlib`
 
 [**View Repository →**](https://github.com/abdelrhmanmouse/body-performance-prediction)
@@ -131,34 +171,71 @@ Covers exploratory analysis, preprocessing, modeling, and evaluation.
 
 ### More Projects
 
-* 📈 [**Excel Sales Performance Dashboard**](https://github.com/abdelrhmanmouse/Excel-Sales-Performance-Dashboard) — Three-page interactive Excel dashboard using PivotTables, PivotCharts, KPI cards, slicers, and connected navigation.
+* 📈 [**Excel Sales Performance Dashboard**](https://github.com/abdelrhmanmouse/Excel-Sales-Performance-Dashboard) — Interactive Excel dashboard using PivotTables, PivotCharts, KPI cards, slicers, and connected navigation.
+
 * 🗄️ [**E-Commerce SQL Database**](https://github.com/abdelrhmanmouse/ecommerce-sql-database) — Microsoft SQL Server relational database covering core e-commerce workflows and analytical queries.
 
 ---
 
-## What I Work With
+# What I Work With
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### 🧠 Artificial Intelligence
+### 🤖 Machine Learning
 
-* Machine Learning
-* Deep Learning
-* Retrieval-Augmented Generation
-* Natural Language Processing
-* Computer Vision
+* Regression
+* Classification
+* Feature Engineering
 * Predictive Modeling
+* Model Evaluation
+* Regularization
+* Scikit-learn
 
 </td>
 
 <td width="50%" valign="top">
 
-### 📊 Data Analytics
+### 🧠 Deep Learning
+
+* Neural Networks
+* CNN
+* RNN
+* LSTM
+* ResNet
+* Transfer Learning
+* Video Classification
+* GAN concepts
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### ✨ Generative AI & NLP
+
+* Retrieval-Augmented Generation
+* Embeddings
+* BM25
+* TF-IDF
+* Natural Language Processing
+* Arabic NLP
+* AraBERT
+* Whisper
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📊 Data Analytics & BI
 
 * Data Cleaning & EDA
+* Statistical Analysis
 * SQL Analysis
 * Power BI & Excel
 * Dashboard Development
@@ -172,13 +249,13 @@ Covers exploratory analysis, preprocessing, modeling, and evaluation.
 
 ---
 
-## Experience
+## 💼 Experience
 
 ### Applied AI & Data Analytics Trainee
 
 **DigiLians**
 
-`AI` `Machine Learning` `Data Analysis` `Deep Learning` `NLP` `Computer Vision`
+`Artificial Intelligence` `Machine Learning` `Deep Learning` `Data Analysis` `NLP` `Computer Vision`
 
 ### Quality Engineer
 
@@ -188,72 +265,55 @@ May 2023 – October 2023
 
 ### Safety & Occupational Health Specialist
 
----
-
-## Education
-
-🎓 **AI & Data Analysis Diploma**
-DigiLians — Egyptian Military Academy / Military Technical Education
-`December 2025 – Present` · `9-Month Diploma` · **Very Good**
-
-🎓 **Bachelor of Computer Science**
-El Obour Higher Institute for Management and Computers — Elsharqaya
-`2019 – 2026` · **Very Good**
+Experience in workplace safety, occupational health, risk awareness, and operational procedures.
 
 ---
 
-## Certifications & Professional Learning
+## 🎓 Education
 
-<table>
-<tr>
-<td>
+### AI & Data Analysis Diploma
 
-🏅 [**Microsoft Certified: Power BI Data Analyst Associate**](https://learn.microsoft.com/api/credentials/share/en-us/Mouseabdelrhman91303414-2513/C379CF48AA33E738?sharingId=6FA75A715766B66)
+**DigiLians — Egyptian Military Academy / Military Technical Education**
 
-</td>
-<td>
+`December 2025 – Present`
+9-Month Diploma · **Grade: Very Good**
 
-🤖 [**IBM AI Engineering**](https://coursera.org/share/31704841819d6c602f75f87bddf6f29d)
+### Bachelor of Computer Science
 
-</td>
-</tr>
+**El Obour Higher Institute for Management and Computers — Elsharqaya**
 
-<tr>
-<td>
+`2019 – 2026` · **Grade: Very Good**
 
-🧠 [**Artificial Intelligence Engineer 2**](https://coursera.org/share/4d38c8a661ffbc62ff3c0a668f1eed87)
+---
 
-</td>
-<td>
+## 🏅 Certifications & Professional Learning
 
-📊 [**Google Data Analytics**](https://coursera.org/share/9e854f83607e85e730e06f6164295f5f)
+[**Microsoft Certified: Power BI Data Analyst Associate**](https://learn.microsoft.com/api/credentials/share/en-us/Mouseabdelrhman91303414-2513/C379CF48AA33E738?sharingId=6FA75A715766B66)
+Microsoft
 
-</td>
-</tr>
+[**IBM AI Engineering**](https://coursera.org/share/31704841819d6c602f75f87bddf6f29d)
+IBM / Coursera
 
-<tr>
-<td>
+[**Artificial Intelligence Engineer 2**](https://coursera.org/share/4d38c8a661ffbc62ff3c0a668f1eed87)
+Coursera
 
-📈 [**Data Analyst L1**](https://coursera.org/share/a89cc227a939d1d7688993e1eb69b555)
+[**Google Data Analytics**](https://coursera.org/share/9e854f83607e85e730e06f6164295f5f)
+Google / Coursera
 
-</td>
-<td>
+[**Data Analyst L1**](https://coursera.org/share/a89cc227a939d1d7688993e1eb69b555)
+Coursera
 
-</td>
-</tr>
-</table>
-
-<br>
+---
 
 <div align="center">
 
 ## Let's Connect
 
-Interested in **AI, Data Analytics, Machine Learning, and practical data-driven solutions**.
+I'm interested in opportunities across **AI, Data Analytics, Machine Learning, Deep Learning, Generative AI, and Computer Vision**.
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/abdelrhman-mouse)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:abdelrhmanmuhamed780@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/abdelrhman-mouse)
+[![Email](https://img.shields.io/badge/Email-Send_a_Message-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:abdelrhmanmuhamed780@gmail.com)
 
 </div>
