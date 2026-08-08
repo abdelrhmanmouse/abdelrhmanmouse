@@ -1,0 +1,147 @@
+<svg width="1600" height="460" viewBox="0 0 1600 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1520" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#15102C"/>
+    </linearGradient>
+
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(350 145) rotate(30) scale(420 240)">
+      <stop stop-color="#21D4FD" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#21D4FD" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1290 320) rotate(-20) scale(420 250)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="lineGrad" x1="980" y1="140" x2="1450" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#9FB7D1" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="460" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="460" rx="28" fill="url(#glow1)"/>
+  <rect width="1600" height="460" rx="28" fill="url(#glow2)"/>
+  <rect width="1600" height="460" rx="28" fill="url(#grid)"/>
+
+  <!-- Decorative top-left marks -->
+  <circle cx="80" cy="74" r="5" fill="#22D3EE"/>
+  <circle cx="102" cy="74" r="5" fill="#8B5CF6"/>
+  <circle cx="124" cy="74" r="5" fill="#60A5FA"/>
+  <path d="M80 103H210" stroke="#8AA6C5" stroke-opacity="0.18" stroke-width="2"/>
+
+  <!-- Left content -->
+  <text x="92" y="180" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="54" font-weight="700">Abdelrhman Hassan</text>
+
+  <text x="94" y="230" fill="#9CCBFF" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="25" font-weight="600">AI &amp; Data Analyst</text>
+
+  <text x="94" y="281" fill="#B9C8DA" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20" font-weight="500">
+    Machine Learning  ·  Deep Learning  ·  Generative AI &amp; RAG
+  </text>
+
+  <text x="94" y="316" fill="#B9C8DA" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20" font-weight="500">
+    Computer Vision  ·  Data Analytics  ·  Business Intelligence
+  </text>
+
+  <!-- Accent underline -->
+  <rect x="94" y="345" width="340" height="5" rx="2.5" fill="url(#lineGrad)"/>
+  <text x="94" y="386" fill="#7F94AB" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    Building practical AI systems and turning data into clear insights.
+  </text>
+
+  <!-- Right-side visual system -->
+  <g transform="translate(925 75)">
+    <!-- Analytics card -->
+    <g filter="url(#shadow)">
+      <rect x="0" y="0" width="255" height="142" rx="18" fill="#0D1A31" stroke="#AFC8E7" stroke-opacity="0.12"/>
+      <text x="22" y="32" fill="#9FB7D1" font-family="Inter, Segoe UI, Arial" font-size="13">DATA ANALYTICS</text>
+
+      <path d="M28 105 L68 83 L108 92 L151 57 L201 73" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="28" cy="105" r="4" fill="#22D3EE"/>
+      <circle cx="68" cy="83" r="4" fill="#22D3EE"/>
+      <circle cx="108" cy="92" r="4" fill="#22D3EE"/>
+      <circle cx="151" cy="57" r="4" fill="#22D3EE"/>
+      <circle cx="201" cy="73" r="4" fill="#22D3EE"/>
+
+      <rect x="23" y="121" width="42" height="5" rx="2.5" fill="#8B5CF6" fill-opacity="0.85"/>
+      <rect x="72" y="121" width="63" height="5" rx="2.5" fill="#60A5FA" fill-opacity="0.75"/>
+      <rect x="142" y="121" width="83" height="5" rx="2.5" fill="#22D3EE" fill-opacity="0.65"/>
+    </g>
+
+    <!-- Computer vision card -->
+    <g transform="translate(282 20)" filter="url(#shadow)">
+      <rect x="0" y="0" width="220" height="155" rx="18" fill="#10182E" stroke="#AFC8E7" stroke-opacity="0.12"/>
+      <text x="18" y="30" fill="#9FB7D1" font-family="Inter, Segoe UI, Arial" font-size="13">COMPUTER VISION</text>
+
+      <rect x="34" y="50" width="76" height="63" rx="8" stroke="#8B5CF6" stroke-width="2"/>
+      <rect x="104" y="74" width="70" height="52" rx="8" stroke="#22D3EE" stroke-width="2"/>
+      <circle cx="72" cy="80" r="12" fill="#8B5CF6" fill-opacity="0.18" stroke="#8B5CF6"/>
+      <circle cx="139" cy="96" r="10" fill="#22D3EE" fill-opacity="0.18" stroke="#22D3EE"/>
+
+      <path d="M23 135H194" stroke="#86A0BD" stroke-opacity="0.13"/>
+    </g>
+
+    <!-- Neural/RAG graph -->
+    <g transform="translate(65 195)">
+      <text x="0" y="0" fill="#9FB7D1" font-family="Inter, Segoe UI, Arial" font-size="13">AI / RAG / DEEP LEARNING</text>
+
+      <!-- connections -->
+      <g stroke="url(#lineGrad)" stroke-opacity="0.52" stroke-width="2">
+        <path d="M40 75L120 44"/>
+        <path d="M40 75L120 107"/>
+        <path d="M120 44L205 66"/>
+        <path d="M120 107L205 66"/>
+        <path d="M205 66L300 34"/>
+        <path d="M205 66L300 100"/>
+        <path d="M300 34L385 69"/>
+        <path d="M300 100L385 69"/>
+      </g>
+
+      <!-- nodes -->
+      <g filter="url(#softGlow)">
+        <circle cx="40" cy="75" r="11" fill="#22D3EE"/>
+        <circle cx="120" cy="44" r="9" fill="#60A5FA"/>
+        <circle cx="120" cy="107" r="9" fill="#60A5FA"/>
+        <circle cx="205" cy="66" r="12" fill="#8B5CF6"/>
+        <circle cx="300" cy="34" r="9" fill="#22D3EE"/>
+        <circle cx="300" cy="100" r="9" fill="#22D3EE"/>
+        <circle cx="385" cy="69" r="12" fill="#A78BFA"/>
+      </g>
+
+      <!-- labels -->
+      <text x="13" y="108" fill="#6F879F" font-family="Inter, Segoe UI, Arial" font-size="11">query</text>
+      <text x="177" y="101" fill="#6F879F" font-family="Inter, Segoe UI, Arial" font-size="11">embedding</text>
+      <text x="359" y="104" fill="#6F879F" font-family="Inter, Segoe UI, Arial" font-size="11">answer</text>
+    </g>
+  </g>
+
+  <!-- Thin footer accent -->
+  <rect x="0" y="452" width="1600" height="8" fill="url(#lineGrad)" fill-opacity="0.85"/>
+</svg>
