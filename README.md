@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./github-profile-banner.svg" width="100%" alt="Abdelrhman Hassan - AI & Data Analyst"/>
+</p>
+
+<br>
 <div align="center">
 
 # Hi, I'm Abdelrhman Hassan 👋
